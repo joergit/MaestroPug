@@ -1,0 +1,33 @@
+PUG:
+1.- Comando de instalación de 'pug' en consola:
+    npm install pug-cli -g
+
+2.- Versión de 'pug' instalada:
+    pug -V
+
+3.- Para poder observar los cambios del archivo con el cual estamos trabajando:
+    pug --watch index.pug
+
+4.- Cancelamos la tarea con (Ctrl + C) dentro de la consola.
+
+5.- Para compilar con indentación esto nos da una lectura legible del documento html. Ejecutamos en consola:
+    pug --watch index.pug --pretty
+
+6.- Al momento de compilar también lo podemos indicar donde sera la salida del archivo compilado. Ejecutamos en consola:
+    pug --watch pug/index.pug --out "./"
+
+7.- Lo mismo que el punto 6, pero ahora incluimos la compilación indentada '--pretty' y lo damos una ruta más especifica a la salida. Ejecutamos el comando:
+    pug --watch pug/index.pug --out "./pug" --pretty
+
+8.- Mirando el directorio completo:
+    pug --watch pug/ (sin indentado)
+    pug --watch pug/ --pretty (con indentado)
+
+
+
+NOTAS EXTRAS DE GIT:
+1.- Eliminar 'git init' cuando se realizo en la ruta incorrecta. Ejecutamos el comando:
+    rm -rf .git
+
+2.- Eliminar origen remoto del repositorio Git. Ejecutamos el comando:
+    git remote remove origin
