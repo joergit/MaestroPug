@@ -31,3 +31,5 @@ NOTAS EXTRAS DE GIT:
 
 2.- Eliminar origen remoto del repositorio Git. Ejecutamos el comando:
     git remote remove origin
+
+3.- Video Git: Subir un proyecto a Github (https://www.youtube.com/watch?v=RRegIKu-z3k) min. 4:00
