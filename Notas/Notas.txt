@@ -33,3 +33,14 @@ NOTAS EXTRAS DE GIT:
     git remote remove origin
 
 3.- Video Git: Subir un proyecto a Github (https://www.youtube.com/watch?v=RRegIKu-z3k) min. 4:00
+
+4.- Regresar a un directorio anterior en Git bash. Ejecutamos el comando:
+    cd -
+    cd ..
+
+5.- Regresar al directorio inicial en Git bash.
+Ejecutamos el comando:
+    cd --
+
+6.- Regresar al directorio raíz en Git bash. Ejecutamos el comando:
+    cd/
